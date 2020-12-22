@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<--! this is a xml document representing the menu for PizzaML -->
+
+<menu>
+<--! Pizzas -->
+    <category name="pizza">
+        <item>
+            <name>Tomato &amp; Cheese</name>
+            <size>Large</size>
+            <price>9.75</price>
+            <description/>
+        </item>
+        <item>
+            <name>Tomato &amp; Cheese</name>
+            <size>Small</size>
+            <price>5.50</price>
+            <description/>
+        </item>
+        <item>
+            <name>Mushrooms</name>
+            <size>Large</size>
+            <price>10.85</price>
+            <description/>
+        </item>
+        <item>
+            <name>Mushrooms</name>
+            <size>Small</size>
+            <price>6.85</price>
+            <description/>
+        </item>
+    </category>
+
+<--! Speciality Pizzas -->
+    <category name="special-pizza">
+        <item>
+            <name>Three Aces Special</name>
+            <size>Large</size>
+            <price>15.80</price>
+            <description>Mediterranean Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella &amp; Feta Cheese</description>
+        </item>
+    </category>
+
+<--! Special Dinners -->
+    <category name="special-dinner">
+        <item>
+            <name>Chicken Wing Dinner</name>
+            <size/>
+            <price>7.25</price>
+            <description/>
+        </item>
+    </category>
+
+<--! Side Orders -->
+    <category name="side-order">
+        <item>
+            <name>Onion Rings</name>
+            <size>Large</size>
+            <price>2.95</price>
+            <description/>
+        </item>
+    </category>
+</menu>
