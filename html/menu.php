@@ -10,7 +10,7 @@
         <?php
         if (file_exists('menu.xml')) {
             $dom=simplexml_load_file('menu.xml');
-            foreach ($dom->xpath('/pizzas/pizza') as $pizza){
+            foreach ($dom->xpath('/ITEM') as $pizza){
                 print "<li>";
                 print $pizza->name;
                 print "</li>";
