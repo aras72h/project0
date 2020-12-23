@@ -6,13 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    if (file_exists('menu.xml')) {
-        $xml=simplexml_load_file('menu.xml');
-        print_r($xml);
-    } else {
-        exit('Failed');
-    }
-    ?>
+    <ul>
+        <?php
+        if (file_exists('menu.xml')) {
+            $dom=simplexml_load_file('menu.xml');
+            foreach ($dom->xpath('/pizzas/pizza') as $pizza){
+                print "<li>";
+                print $pizza->name;
+                print "</li>";
+            }
+        } else {
+            exit('Failed');
+        }
+        ?>
+    </ul>
 </body>
 </html>

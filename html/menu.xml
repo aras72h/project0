@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <pizzas>
-        <pizza>
-            <name>Tomato &amp; Cheese</name>
-            <size>Large</size>
-            <price>10dollar</price>
-            <description/>
-        </pizza>
-    </pizzas>
+<pizzas>
+    <pizza>
+        <name>Tomato &amp; Cheese</name>
+        <size>Large</size>
+        <price>10dollar</price>
+        <description/>
+    </pizza>
+</pizzas>
