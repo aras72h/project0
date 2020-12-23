@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Our Menu</title>
-</head>
-<body>
+<?php
+
+require_once('helpers.php');
+
+?>
+
+<?php render('header', array('title' => 'Menu')); ?>
+
     <table>
         <tr>
             <th>Name</th>
@@ -35,5 +34,4 @@
         }
         ?>
     </table>
-</body>
-</html>
+<?php render('footer'); ?>
