@@ -6,16 +6,9 @@
     <title>Menu</title>
 </head>
 <body>
-    <ul>
-        <?php
-            $menu=simplexml_load_file("../xml/menu.xml");
-            foreach ($menu->xpath("/pizzas/pizza") as $pizza)
-            {
-                print "<li>";
-                print "$pizza->name";
-                print "</li>";
-            }
-        ?>
-    </ul>
+<?php
+    $xml=simplexml_load_file('menu.xml');
+    print_r($xml);
+?>
 </body>
 </html>
