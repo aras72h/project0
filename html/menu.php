@@ -12,7 +12,7 @@
             foreach ($menu->xpath("/pizzas/pizza") as $pizza)
             {
                 print "<li>";
-                print "$pizza->name";
+                print $pizza->name;
                 print "</li>";
             }
         ?>
