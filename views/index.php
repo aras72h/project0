@@ -1,1 +1,1 @@
-<h1><a href="menu.php"> Order Now</a></h1>
+<h1><a href="../views/menu.php"> Order Now</a></h1>
