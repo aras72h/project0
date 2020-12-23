@@ -27,9 +27,6 @@
                 print "<td>";
                 print $item->PRICE;
                 print "</td>";
-                print "<td>";
-                print "<button type="button">Add to Cart</button>";
-                print "</td>";
                 print "</tr>";
 
             }
