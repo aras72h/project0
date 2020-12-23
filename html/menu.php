@@ -9,10 +9,10 @@
     <ul>
         <?php
             $menu=simplexml_load_file("../xml/menu.xml");
-            foreach ($menu->xpath("/menu/category") as $category)
+            foreach ($menu->xpath("/pizzas/pizza") as $pizza)
             {
                 print "<li>";
-                print "$category->item";
+                print "$pizza->name";
                 print "</li>";
             }
         ?>
