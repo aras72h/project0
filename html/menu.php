@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table style="width:100%">
+    <table style="width:100% border:1px solid black">
         <tr>
             <th>Name</th>
             <th>Category</th>
