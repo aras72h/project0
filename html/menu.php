@@ -6,20 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
+    <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
         <?php
         if (file_exists('menu.xml')) {
             $dom=simplexml_load_file('menu.xml');
             foreach ($dom->xpath('/ITEM') as $item){
-                print "<li>";
+                print "<tr>";
+                print "<td>";
                 print $item->NAME;
+                print "</td>";
+                print "<td>";
                 print $item->CATEGORY;
-                print "</li>";
+                print "</td>";
+                print "<td>";
+                print $item->PRICE;
+                print "</td>";
+                print "</tr>";
             }
         } else {
             exit('Failed');
         }
         ?>
-    </ul>
+    </table>
 </body>
 </html>
