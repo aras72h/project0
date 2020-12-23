@@ -6,4 +6,26 @@
         <price>10dollar</price>
         <description/>
     </pizza>
+    <pizza>
+        <name>Pepers</name>
+        <size>Large</size>
+        <price>18dollar</price>
+        <description/>
+    </pizza>
 </pizzas>
+<spec-dins>
+    <spec-din>
+        <name>Chicken Wings</name>
+        <size/>
+        <price>7dollar</price>
+        <description/>
+    </spec-din>
+</spec-dins>
+<drinks>
+    <drink>
+        <name>Butter Beer</name>
+        <size/>
+        <price>37dollar</price>
+        <description/>
+    </drink>
+</drinks>
