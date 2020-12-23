@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<--! this is a xml document representing the menu for PizzaML -->
-
-<--! Pizzas -->
-<pizzas>
-    <pizza>
-        <name>Tomato &amp; Cheese</name>
-        <size>Large</size>
-        <price>10dollar</price>
-        <description/>
-    </pizza>
-</pizzas>
-<pizzas>
-    <pizza>
-        <name>Tomato &amp; Cheese</name>
-        <size>Small</size>
-        <price>5dollar</price>
-        <description/>
-    </pizza>
-</pizzas>
-<pizzas>
-    <pizza>
-        <name></name>
-        <size></size>
-        <price></price>
-        <description/>
-    </pizza>
-</pizzas>
+    <pizzas>
+        <pizza>
+            <name>Tomato &amp; Cheese</name>
+            <size>Large</size>
+            <price>10dollar</price>
+            <description/>
+        </pizza>
+    </pizzas>
