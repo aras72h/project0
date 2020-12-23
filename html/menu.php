@@ -8,7 +8,7 @@
 <body>
     <ul>
         <?php
-            $menu=simplexml_load_file("menu.xml");
+            $menu = simplexml_load_file("menu.xml");
             foreach ($menu->xpath("/pizzas/pizza") as $pizza)
             {
                 print "<li>";
