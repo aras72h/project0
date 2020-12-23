@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Our Menu</title>
 </head>
 <body>
-    <table style="width:100% border:1px solid black">
+    <table>
         <tr>
             <th>Name</th>
             <th>Category</th>
