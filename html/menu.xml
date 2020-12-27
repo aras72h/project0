@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ITEM number="001">
     <CATEGORY>Pizzas</CATEGORY>
-    <NAME>Perperoni</NAME>
+    <NAME>Tomato &amp; Cheese</NAME>
+    <SIZE>Small</SIZE>
+    <PRICE>5.50</PRICE>
+    <DESCRIPTION/>
+</ITEM>
+<ITEM number="002">
+    <CATEGORY>Pizzas</CATEGORY>
+    <NAME>Tomato &amp; Cheese</NAME>
     <SIZE>Large</SIZE>
-    <PRICE>23</PRICE>
-    <DESCRIPTION>No cheese</DESCRIPTION>
+    <PRICE>9.75</PRICE>
+    <DESCRIPTION/>
+</ITEM>
+<ITEM number="003">
+    <CATEGORY>Pizzas</CATEGORY>
+    <NAME>Onions</NAME>
+    <SIZE>Small</SIZE>
+    <PRICE>6.85</PRICE>
+    <DESCRIPTION/>
+</ITEM>
+<ITEM number="004">
+    <CATEGORY>Pizzas</CATEGORY>
+    <NAME>Onions</NAME>
+    <SIZE>Large</SIZE>
+    <PRICE>10.85</PRICE>
+    <DESCRIPTION/>
+</ITEM>
+<ITEM number="005">
+    <CATEGORY>Pizzas</CATEGORY>
+    <NAME>Peppers</NAME>
+    <SIZE>Small</SIZE>
+    <PRICE>6.85</PRICE>
+    <DESCRIPTION/>
+</ITEM>
+<ITEM number="006">
+    <CATEGORY>Pizzas</CATEGORY>
+    <NAME>Peppers</NAME>
+    <SIZE>Large</SIZE>
+    <PRICE>10.85</PRICE>
+    <DESCRIPTION/>
 </ITEM>

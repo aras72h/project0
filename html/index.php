@@ -1,8 +1,16 @@
-<?php require_once('helpers.php'); ?>
+<?php
+    session_start();
+    require_once('helpers.php');
+    $menu = simplexml_load_file('menu.xml');
+?>
 
-<?php render('header', array('title' => 'Home of PizzaML')); ?>
+<?php render('header', array('title' => 'Menu')); ?>
 
-    <h1>Welcome to PizzaML</h1>
-    <h2><a href="menu.php">Order Now</a></h2>
+<form action="cart.php" method="post">
+    <select name="menu" id="menu">
+    <option value="$number">$name $size</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
 
 <?php render('footer'); ?>
