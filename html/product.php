@@ -5,7 +5,7 @@
 <?php render('header', array('title' => 'product page')); ?>
     <h1> cheese Pizza </h1>
     <form action="add.php" method="post">
-        <select name="food" id="food">
+        <select name="item" id="item">
             <option value="tomato">Tomato cheese</option>
             <option value="onion">Onion</option>
         </select>
