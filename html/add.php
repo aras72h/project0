@@ -15,6 +15,6 @@
 
 ?>
 <a href="menu.php">Go back</a>
-<a href="#">Checkout</a>
+<a href="checkout.php">Checkout</a>
 
 <?php render('footer'); ?>
