@@ -8,8 +8,10 @@
 
 <?php
     
-    $order[$_POST['item']] = $_POST['number'];
-    print_r($order);
+    $item = $_POST['item'];
+    $quantity = $_POST['number'];
+    $order = "you ordered " . $number . " " . $item ;
+    print_r($item);
 
 ?>
 <a href="menu.php">Go back</a>
